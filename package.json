@@ -1,0 +1,31 @@
+{
+  "name": "prometheus-mqtt-exporter",
+  "version": "1.0.0",
+  "description": "Low config Prometheus exporter for MQTT broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinzynth/prometheus-mqtt-exporter.git"
+  },
+  "keywords": [
+    "prometheus",
+    "grafana",
+    "mqtt",
+    "exporter"
+  ],
+  "author": "Flügerl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinzynth/prometheus-mqtt-exporter/issues"
+  },
+  "homepage": "https://github.com/vinzynth/prometheus-mqtt-exporter#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mqtt": "^4.3.7",
+    "prom-client": "^14.1.1",
+    "yargs": "^17.6.2"
+  }
+}
