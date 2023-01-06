@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/vinzynth/prometheus-mqtt-exporter#readme",
   "dependencies": {
+    "async-mutex": "^0.4.0",
     "express": "^4.18.2",
     "mqtt": "^4.3.7",
     "prom-client": "^14.1.1",
